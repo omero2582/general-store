@@ -1,0 +1,9 @@
+[submodule "general-store-frontend"]
+	path = general-store-frontend
+	url = https://github.com/omero2582/general-store-frontend
+[submodule "general-store-backend"]
+	path = general-store-backend
+	url = https://github.com/omero2582/general-store-backend
+[submodule "general-store-shared"]
+	path = general-store-shared
+	url = https://github.com/omero2582/general-store-shared
