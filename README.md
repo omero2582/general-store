@@ -16,13 +16,15 @@ https://general-store.fly.dev/shop - work in progress
 
 ## TODO
 - ~~Host on fly.io~~
-- Allow editing
+- ~~Allow editing~~
 - Add multi image support in frontend (backend mostly done)
-- Add cart & product detail pages
+- ~~Add cart & product detail pages~~
 - ~~Add user system (right now anyone can add/edit products). Can do passport-JWT but want to look into google sign-in~~
-- Let users add ratings to products (probably only signed-in users). For this, make a separate DB table where each document has 3 fields: userId, productId, rating
+- ~~Let users add ratings to products (probably only signed-in users). For this, make a separate DB table where each document has 3 fields: userId, productId, rating~~
 - ~~Make it easy for any user to become admin to test out the store~~
 
+## Notes
+- For image management with cloudinary free tier, admin API (delete operations) have a limit of 500 req per hour. Image max files size is 10MB and max megapixels is 25MP.
 
 ## Installation (?)
 Missing .env file on the backend, which contains keys for Cloudinary (image storage), and mongoDB (database). The .env file has the following keys:
